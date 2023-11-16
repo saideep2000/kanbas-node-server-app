@@ -1,7 +1,7 @@
-import courses from "./courses.json" assert { type: 'json' };
-import modules from "./modules.json" assert { type: 'json' };
-import assignments from "./assignments.json" assert { type: 'json' };
-// eslint-disable-next-line import/no-anonymous-default-export
+const courses = require('./courses.json');
+const modules = require('./modules.json');
+const assignments = require('./assignments.json');
+
 export default {
     courses,
     modules,
